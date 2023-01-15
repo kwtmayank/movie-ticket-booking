@@ -1,0 +1,71 @@
+{
+  "user": {
+    "userId": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "mobile": "",
+    "password": ""
+  },
+  "city": [
+    {
+      "id": "",
+      "title": ""
+    }
+  ],
+  "cinema": [
+    {
+      "id": "",
+      "title": "",
+      "city": "cityId",
+      "screens": [
+        {
+          "id": "",
+          "title": "",
+          "shows": [
+            {
+              "id": "",
+              "title": "",
+              "movie": "movieId",
+              "totalCapacity": 80,
+              "occupied": 10,
+              "seatMap": [{ "id": "", "isBooked": true, "user": "userId" }]
+            },
+            {
+              "id": "",
+              "title": "",
+              "movie": "movieId",
+              "totalCapacity": 80,
+              "occupied": 10,
+              "seatMap": [{ "id": "", "isBooked": true, "user": "userId" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "genre": [
+    {
+      "id": "",
+      "title": ""
+    }
+  ],
+  "language": [
+    {
+      "id": "",
+      "title": ""
+    }
+  ],
+  "movie": [
+    {
+      "id": "",
+      "title": "",
+      "cast": ["", ""],
+      "genre": ["genreId"],
+      "language": "languageId",
+      "releaseDate": "",
+      "endDate": "",
+      "length": ""
+    }
+  ]
+}
